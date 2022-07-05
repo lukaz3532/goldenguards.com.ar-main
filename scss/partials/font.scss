@@ -1,0 +1,35 @@
+/* font OSWALD: ExtraLight 200 Light 300 Regular 400 Bold 700  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+
+/* variables */
+
+$fontMain:'Oswald', sans-serif;
+
+/* wheight */
+$fontTitulo: 700;
+$fontSubtitulo: 400;
+$fontTexto: 300;
+$fontLink: 200;
+
+/* color dorado */
+$goldColor:#FFD700;
+
+/* etiquetas */
+h1{
+    font-family: $fontMain;
+    font-weight: $fontTitulo;
+}
+h2{
+    font-family: $fontMain;
+    font-weight: $fontSubtitulo;
+}
+p{
+    font-family: $fontMain;
+    font-weight: $fontTexto;
+    font-size: 1.3em;
+    text-align: justify;
+}
+a{
+    font-family: $fontMain;
+    font-weight: $fontLink;
+}

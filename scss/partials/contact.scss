@@ -1,0 +1,61 @@
+section#contact {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: #000;
+    /*     background-image: radial-gradient(circle at 50% -20.71%, #ffaca6 0, #ffaf9a 5%, #ffb38f 10%, #ffb884 15%, #ffbc7c 20%, #ffc174 25%, #ffc66f 30%, #fecb6b 35%, #f2d069 40%, #e5d469 45%, #d8d86c 50%, #cadc71 55%, #bbdf77 60%, #ace280 65%, #9be589 70%, #8ae795 75%, #77e9a1 80%, #61ebae 85%, #46ecbb 90%, #19edc9 95%, #00edd7 100%);
+ */
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // padding-top: 50px;
+
+    .formulario {
+        width: 400px;
+        background-color: black;
+        padding: 30px;
+        margin: auto;
+        margin-top: 4px;
+        border-radius: 4px;
+        color: $goldColor;
+        box-shadow: 7px 13px 37px $goldColor;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            width: 100%;
+            /* background: rgb(51, 51, 203); */
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border: 1px solid #1f53c5;
+            font-size: 18px;
+            color: black;
+        }
+
+        .button {
+            width: 100%;
+            background-color: $goldColor;
+            border: none;
+            padding: 12px;
+            color: white;
+            margin: 16px 0;
+            font-size: 16px;
+        }
+    }
+
+    .provincia {
+        h2 {
+            color: $goldColor;
+        }
+
+        .videoprovincia {
+            max-width: 100%;
+            padding-right: 30px;
+            padding-top: 50px;
+            border-radius: 5% 5%;
+        }
+
+
+    }
+}

@@ -1,0 +1,11 @@
+section#about {
+    min-height: 30vh;
+    background-color: $goldColor;
+
+    .golden{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 5rem;
+        
+    }
+}
