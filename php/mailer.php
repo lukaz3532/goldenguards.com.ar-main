@@ -1,14 +1,14 @@
 <?php
-    $to = "nghernandez@ngcomputers.com.ar";
+    $to = "comercial@goldenguards.com.ar";
 
     $subject = "Mensaje Web";
     $message = "Nombre: " . $_POST["nombre"] . "\n";
-    $message .= "Teléfono: " . $_POST["telefono"] . "\n";
-    $message .= "Dirección: " . $_POST["direccion"] . "\n";
+    $message .= "Telefono: " . $_POST["telefono"] . "\n";
+    $message .= "Direccion: " . $_POST["direccion"] . "\n";
     $message .= "Mensaje:\n" . $_POST["mensaje"];
     $headers = "From: " . $_POST["email"];
-    $returnURL = "https://golden.ngcomputers.com.ar#contact";
-    $failURL = "https://golden.ngcomputers.com.ar/error.html";
+    $returnURL = "https://goldenguards.com.ar#contact";
+    $failURL = "https://goldenguards.com.ar/error.html";
 
     if ( mail($to, $subject, $message, $headers) ) {
         header('Location: '.$returnURL);
